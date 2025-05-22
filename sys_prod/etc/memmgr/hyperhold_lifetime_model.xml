@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<swap>
+  <swapEnable>True</swapEnable>
+  <pnm name="unknown">
+    <mu0>0.03634161228598987</mu0>
+    <sigma0>0.009045293326237916</sigma0>
+    <c>2.35</c>
+    <d>0.00040908665678842087</d>
+    <ceMax>3000</ceMax>
+    <ceMax_reserve>5</ceMax_reserve>
+    <alpha>0</alpha>
+    <beta>1</beta>
+    <initial_period>8</initial_period>
+    <default_io>35</default_io>
+    <min_days_for_average>7</min_days_for_average>
+    <max_days_for_average>120</max_days_for_average>
+    <max_additional_io>40</max_additional_io>
+    <min_delta_ce>2</min_delta_ce>
+    <min_delta_hostw>1</min_delta_hostw>
+  </pnm>
+  <pnm name="unknown128">
+    <mu0>0.03634161228598987</mu0>
+    <sigma0>0.009045293326237916</sigma0>
+    <c>2.35</c>
+    <d>0.00040908665678842087</d>
+    <ceMax>3000</ceMax>
+    <ceMax_reserve>5</ceMax_reserve>
+    <alpha>0</alpha>
+    <beta>1</beta>
+    <initial_period>8</initial_period>
+    <default_io>35</default_io>
+    <min_days_for_average>7</min_days_for_average>
+    <max_days_for_average>120</max_days_for_average>
+    <max_additional_io>40</max_additional_io>
+    <min_delta_ce>2</min_delta_ce>
+    <min_delta_hostw>1</min_delta_hostw>
+  </pnm>
+  <pnm name="unknown256">
+    <mu0>0.014134609797856454</mu0>
+    <sigma0>0.0023924944708114365</sigma0>
+    <c>2.35</c>
+    <d>2.8620148964316482e-05</d>
+    <ceMax>3000</ceMax>
+    <ceMax_reserve>5</ceMax_reserve>
+    <alpha>0</alpha>
+    <beta>1</beta>
+    <initial_period>8</initial_period>
+    <default_io>35</default_io>
+    <min_days_for_average>7</min_days_for_average>
+    <max_days_for_average>120</max_days_for_average>
+    <max_additional_io>40</max_additional_io>
+    <min_delta_ce>2</min_delta_ce>
+    <min_delta_hostw>1</min_delta_hostw>
+  </pnm>
+  <pnm name="unknown512">
+    <mu0>0.006620833452769975</mu0>
+    <sigma0>0.000884230456371767</sigma0>
+    <c>2.35</c>
+    <d>3.909317499877117e-06</d>
+    <ceMax>3000</ceMax>
+    <ceMax_reserve>5</ceMax_reserve>
+    <alpha>0</alpha>
+    <beta>1</beta>
+    <initial_period>8</initial_period>
+    <default_io>35</default_io>
+    <min_days_for_average>7</min_days_for_average>
+    <max_days_for_average>120</max_days_for_average>
+    <max_additional_io>40</max_additional_io>
+    <min_delta_ce>2</min_delta_ce>
+    <min_delta_hostw>1</min_delta_hostw>
+  </pnm>
+  <pnm name="unknown1024">
+    <mu0>0.006620833452769975</mu0>
+    <sigma0>0.000884230456371767</sigma0>
+    <c>2.35</c>
+    <d>3.909317499877117e-06</d>
+    <ceMax>3000</ceMax>
+    <ceMax_reserve>5</ceMax_reserve>
+    <alpha>0</alpha>
+    <beta>1</beta>
+    <initial_period>8</initial_period>
+    <default_io>35</default_io>
+    <min_days_for_average>7</min_days_for_average>
+    <max_days_for_average>120</max_days_for_average>
+    <max_additional_io>40</max_additional_io>
+    <min_delta_ce>2</min_delta_ce>
+    <min_delta_hostw>1</min_delta_hostw>
+  </pnm>
+  <pnm name="unknown2048">
+    <mu0>0.006620833452769975</mu0>
+    <sigma0>0.000884230456371767</sigma0>
+    <c>2.35</c>
+    <d>3.909317499877117e-06</d>
+    <ceMax>3000</ceMax>
+    <ceMax_reserve>5</ceMax_reserve>
+    <alpha>0</alpha>
+    <beta>1</beta>
+    <initial_period>8</initial_period>
+    <default_io>35</default_io>
+    <min_days_for_average>7</min_days_for_average>
+    <max_days_for_average>120</max_days_for_average>
+    <max_additional_io>40</max_additional_io>
+    <min_delta_ce>2</min_delta_ce>
+    <min_delta_hostw>1</min_delta_hostw>
+  </pnm>
+</swap>

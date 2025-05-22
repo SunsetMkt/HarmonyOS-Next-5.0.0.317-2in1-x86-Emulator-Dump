@@ -1,0 +1,18 @@
+[
+  {
+    "key": "theme_wallpaper",
+    "desc": "壁纸"
+  },
+  {
+    "key": "theme_font",
+    "desc": "字体样式"
+  },
+  {
+    "key": "theme_icon",
+    "desc": "图标"
+  },
+  {
+    "key": "theme_settings",
+    "desc": "桌面和个性化"
+  }
+]

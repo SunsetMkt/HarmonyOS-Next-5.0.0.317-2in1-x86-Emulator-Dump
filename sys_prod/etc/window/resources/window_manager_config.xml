@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+  <decor enable="true"/>
+  <modeChangeHotZones>50 50 50</modeChangeHotZones>
+  <maxFloatingWidth>1706</maxFloatingWidth>
+  <maxFloatingHeight>1000</maxFloatingHeight>
+  <minFloatingWidth>398</minFloatingWidth>
+  <minFloatingHeight>528</minFloatingHeight>
+  <floatingBottomPosY>0</floatingBottomPosY>
+  <defaultFloatingWindow>82 121 1068 706</defaultFloatingWindow>
+  <defaultWindowMode>102</defaultWindowMode>
+  <defaultMaximizeMode>1</defaultMaximizeMode>
+  <dragFrameGravity>5</dragFrameGravity>
+  <maxUniRenderAppWindowNumber>10</maxUniRenderAppWindowNumber>
+  <maxFloatingWindowSize>2880</maxFloatingWindowSize>
+  <snapshotScale>1.0</snapshotScale>
+  <backgroundswitch>1</backgroundswitch>
+  <keyboardAnimation>
+    <timing>
+      <durationIn>500</durationIn>
+      <durationOut>150</durationOut>
+      <curve name="cubic">0.2 0.0 0.2 1.0</curve>
+    </timing>
+  </keyboardAnimation>
+  <windowAnimation>
+    <timing>
+      <duration>200</duration>
+      <curve name="cubic">0.0 0.0 0.2 1.0</curve>
+    </timing>
+    <scale>0.9 0.9</scale>
+    <rotation>0 0 1 0</rotation>
+    <translate>0 0</translate>
+    <opacity>0</opacity>
+  </windowAnimation>
+  <windowEffect>
+    <appWindows>
+      <cornerRadius>
+        <fullScreen>off</fullScreen>
+        <split>off</split>
+        <float>defaultCornerRadiusL</float>
+      </cornerRadius>
+      <shadow>
+        <focused>
+          <elevation>0</elevation>
+          <color>#000000</color>
+          <offsetX>0</offsetX>
+          <offsetY>15</offsetY>
+          <alpha>0.4</alpha>
+          <radius>34</radius>
+        </focused>
+        <unfocused>
+          <elevation>0</elevation>
+          <color>#000000</color>
+          <offsetX>0</offsetX>
+          <offsetY>15</offsetY>
+          <alpha>0.2</alpha>
+          <radius>17</radius>
+        </unfocused>
+      </shadow>
+    </appWindows>
+  </windowEffect>
+  <subWindowSizeLimits>
+    <miniWidth>10</miniWidth>
+    <miniHeight>10</miniHeight>
+  </subWindowSizeLimits>
+  <immersive>
+    <inDesktopStatusBarConfig>
+      <showHide enable="true"/>
+      <backgroundColor>#00FFFFFF</backgroundColor>
+      <contentColor>#FF000000</contentColor>
+    </inDesktopStatusBarConfig>
+    <inSplitStatusBarConfig>
+      <upDownSplit>
+        <showHide enable="false"/>
+        <backgroundColor>#00FFFFFF</backgroundColor>
+        <contentColor>#FF000000</contentColor>
+      </upDownSplit>
+      <leftRightSplit>
+        <showHide enable="false">false</showHide>
+        <backgroundColor>#00FFFFFF</backgroundColor>
+        <contentColor>#FF000000</contentColor>
+      </leftRightSplit>
+    </inSplitStatusBarConfig>
+  </immersive>
+  <uiType>pc</uiType>
+  <backgroundScreenLock enable="false"/>
+  <rotationMode>none</rotationMode>
+  <supportTypeFloatWindow enable="true"/>
+</Configs>

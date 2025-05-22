@@ -1,0 +1,46 @@
+{
+	"list": [
+		{
+			"type": "3",
+			"path": "/sys_prod/resource/avatar/3Demoji",
+			"name": "blue",
+			"defaultImg": "/sys_prod/resource/avatar/3Demoji/base/blue/default.png"
+		},
+		{
+			"type": "3",
+			"path": "/sys_prod/resource/avatar/3Demoji",
+			"name": "gray",
+			"defaultImg": "/sys_prod/resource/avatar/3Demoji/base/gray/default.png"
+		},
+		{
+			"type": "3",
+			"path": "/sys_prod/resource/avatar/3Demoji",
+			"name": "yellow",
+			"defaultImg": "/sys_prod/resource/avatar/3Demoji/base/yellow/default.png"
+		},
+		{
+			"type": "2",
+			"path": "/sys_prod/resource/avatar/emoji",
+			"name": "smile",
+			"defaultImg": "/sys_prod/resource/avatar/emoji/smile/default.png"
+		},
+		{
+			"type": "1",
+			"path": "/sys_prod/resource/avatar/static",
+			"name": "hosRing",
+			"defaultImg": "/sys_prod/resource/avatar/static/hosRing.png"
+		},
+		{
+			"type": "1",
+			"path": "/sys_prod/resource/avatar/static",
+			"name": "starDiamond",
+			"defaultImg": "/sys_prod/resource/avatar/static/starDiamond.png"
+		},
+		{
+			"type": "1",
+			"path": "/sys_prod/resource/avatar/static",
+			"name": "default",
+			"defaultImg": "/sys_prod/resource/avatar/static/default.svg"
+		}
+	]
+}

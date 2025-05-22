@@ -1,0 +1,23 @@
+{
+  "common": {
+    "light": "/common/light.png",
+    "shadow": "/common/shadow.png"
+  },
+  "base":[
+    {
+      "name": "blue",
+      "body": "/base/blue/body.png",
+      "background": "/base/blue/background.png"
+    },
+    {
+      "name": "yellow",
+      "body": "/base/yellow/body.png",
+      "background": "/base/yellow/background.png"
+    },
+    {
+      "name": "gray",
+      "body": "/base/gray/body.png",
+      "background": "/base/gray/background.png"
+    }
+  ]
+}

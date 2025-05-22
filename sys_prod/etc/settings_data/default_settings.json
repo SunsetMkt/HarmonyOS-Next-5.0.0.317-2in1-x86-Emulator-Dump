@@ -1,0 +1,34 @@
+{
+  "settings": [
+    {
+      "name": "device_provisioned",
+      "value": "1"
+    },
+    {
+      "name": "user_setup_complete",
+      "value": "1"
+    },
+    {
+      "name": "is_ota_finished",
+      "value": "1"
+    },
+    {
+      "name": "basic_statement_agreed",
+      "value": "1"
+    }
+  ],
+  "userSecure": [
+    {
+      "name": "user_setup_complete",
+      "value": "1"
+    },
+    {
+      "name": "is_ota_finished",
+      "value": "1"
+    },
+    {
+      "name": "basic_statement_agreed",
+      "value": "1"
+    }
+  ]
+}
