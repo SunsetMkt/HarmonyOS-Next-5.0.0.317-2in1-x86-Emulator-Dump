@@ -1,0 +1,198 @@
+# 2024-03-28 09:58:31.0
+atomic.service.distribute.engine.bundle.name=com.huawei.hmos.asde
+# 2024-08-27 16:33:32.0
+const.abilityms.enable_uiservice=true
+# 2024-10-14 17:33:04.0
+const.abilityms.support_multi_instance=true
+# 2024-09-29 11:10:01.0
+const.ace.darkModeAppBGColorBrightness=0,0
+# 2024-05-14 09:46:56.0
+const.appgallery.shaderowner.bundlename=com.huawei.hmsapp.appgallery
+# 2024-04-08 22:15:05.0
+const.appsecurityprivacy.superprivacy.feature_enabled=0
+# 2024-04-08 22:15:05.0
+const.appsecurityprivacy.superprivacy.paddle_existed=0
+# 2024-04-08 22:15:05.0
+const.appsecurityprivacy.superprivacy.supported_sensors=0
+# 2024-08-19 20:52:19.0
+const.appsecurityprivacycenter.directory.permission_enabled=1
+# 2024-11-08 16:35:37.0
+const.appsecurityprivacycenter.permission_disable_dialog.enabled=1
+# 2024-04-02 20:18:53.0
+const.audio.volume_apply_to_all=true
+# 2025-01-09 20:34:45.0
+const.bms.maxChildProcess=512
+# 2024-07-04 15:48:22.0
+const.bms.supportAppTypes=tablet,phone
+# 2024-07-05 16:46:23.0
+const.booster.virtual_modem_switch=false
+# 2024-09-05 19:35:38.0
+const.camera.multicamera.enable=true
+# 2024-02-22 17:39:40.0
+const.castengine.uicast.enable=1
+# 2024-02-22 17:39:40.0
+const.cust.cversion=C00
+# 2024-07-18 10:16:30.0
+const.filemanagement.device_Id=0
+# 2024-05-16 19:26:28.0
+const.filemanagement.enable_sandbox_monitor=true
+# 2024-02-22 17:39:40.0
+const.filemanager.full_mount.enable=true
+# 2024-11-11 14:40:31.0
+const.fusionsearch.enable_build_text_vector=true
+# 2024-12-03 19:19:25.0
+const.fusionsearch.index_build_level=0
+# 2024-12-11 19:35:20.0
+const.graphic.app_vsync_priority=0
+# 2024-05-15 21:21:13.0
+const.hipreview.param_title_bar_items=0
+# 2024-08-30 11:39:56.0
+const.max_native_child_process=512
+# 2024-03-22 11:50:39.0
+const.meetcall.float.window=false
+# 2024-04-29 11:12:08.0
+const.meetime.support.message=true
+# 2024-06-03 14:45:37.0
+const.multimedia.alarm_tone=Flourish.ogg
+# 2024-10-22 17:35:32.0
+const.multimedia.alarm_tone_haptics=Classic.json
+# 2024-10-22 17:35:32.0
+const.multimedia.haptics_ringtone_sim_card_0_haptics=Classic.json
+# 2024-10-22 17:35:32.0
+const.multimedia.haptics_ringtone_sim_card_1_haptics=Classic.json
+# 2024-10-22 17:35:32.0
+const.multimedia.haptics_system_tone_sim_card_0_haptics=Tick-tock.json
+# 2024-10-22 17:35:32.0
+const.multimedia.haptics_system_tone_sim_card_1_haptics=Tick-tock.json
+# 2024-06-03 14:45:37.0
+const.multimedia.notification_tone=Rise.ogg
+# 2024-10-22 17:35:32.0
+const.multimedia.notification_tone_haptics=Tick-tock.json
+# 2024-06-03 14:45:37.0
+const.multimedia.ringtone_sim_card_0=Huawei_Tune_Harmony.ogg
+# 2024-06-03 14:45:37.0
+const.multimedia.ringtone_sim_card_1=Huawei_Tune_Clean.ogg
+# 2024-06-03 14:45:37.0
+const.multimedia.system_tone_sim_card_0=Leap.ogg
+# 2024-06-03 14:45:37.0
+const.multimedia.system_tone_sim_card_1=Leap.ogg
+# 2024-11-23 11:01:41.0
+const.ohos.version.certified=OpenHarmony 5.0.1
+# 2025-04-21 11:03:21.0
+const.pasteboard.uri_persistable_permission=true
+# 2024-02-22 17:39:40.0
+const.product.appboot.setting.enabled=true
+# 2024-02-22 17:39:40.0
+const.product.baseappid=20000
+# 2024-11-23 14:51:53.0
+const.product.enterprisefeature.setting.enabled=true
+# 2024-09-25 09:37:21.0
+const.product.os.dist.name=HarmonyOS
+# 2024-07-29 15:58:55.0
+const.product.os.dist.version=5.0.0
+# 2024-08-08 16:17:18.0
+const.settings.nal_web_url=https://jwxkwap.miit.gov.cn/eAuthenticityQueryDetails
+# 2024-07-03 11:07:09.0
+const.startup.hnp.execute.enable=true
+# 2024-07-03 11:07:09.0
+const.startup.hnp.install.enable=true
+# 2024-12-03 16:32:01.0
+const.sys.param_file_description_monitor=true
+# 2024-02-22 17:39:40.0
+const.system.sharePicker.abilityName=SharePickerAbility
+# 2024-02-22 17:39:40.0
+const.system.sharePicker.bundleName=com.huawei.hmos.instantshare
+# 2024-02-22 17:39:40.0
+const.telephony.preferredNetworkType=12
+# 2024-12-23 11:23:23.0
+const.usb_manager.supported_functions=charge
+# 2024-07-31 16:19:34.0
+const.window.multiWindowUIType=FreeFormMultiWindow
+# 2024-02-22 17:39:40.0
+hw_sc.hmos_font.enabled=true
+# 2024-04-17 19:17:20.0
+is_night_upgrade_support=false
+# 2024-03-21 17:05:18.0
+persisit.sys.abilityms.support_assert_fault_dialog=true
+# 2024-02-22 17:39:40.0
+persist.bms.supportIsolationMode=true
+# 2024-08-02 10:03:21.0
+persist.device_activate_service.activated_time_url=https://sgw-cn.c.huawei.com/forward/ccpc/ccps/getActivatedTimeBySN/3080
+# 2024-08-02 10:03:21.0
+persist.device_activate_service.app_id=3537F92AEEFA3D34FAF75C2AD385440E
+# 2024-08-02 10:03:21.0
+persist.device_activate_service.challenge_url=https://sgw-cn.c.huawei.com/forward/ccpc/bff/getChallenge/3080
+# 2024-06-27 13:56:27.0
+persist.dupdate_engine.auto_download_battery_level=35
+# 2024-06-27 13:58:03.0
+persist.dupdate_engine.auto_download_battery_limit_normal_charging=10
+# 2024-06-27 13:58:29.0
+persist.dupdate_engine.auto_upgrade_battery_limit_charging=20
+# 2024-06-27 13:48:46.0
+persist.dupdate_engine.auto_upgrade_idle_check_type=15
+# 2024-06-27 13:55:53.0
+persist.dupdate_engine.auto_upgrade_patch_exclude_hota_battery_limit_charging=10
+# 2024-06-27 13:56:55.0
+persist.dupdate_engine.auto_upgrade_patch_or_sa_exclude_hota_battery_limit=20
+# 2024-06-27 13:55:16.0
+persist.dupdate_engine.idle_check_interval=180
+# 2024-08-09 09:56:19.0
+persist.dupdate_engine.keep_alive_threshold=3600
+# 2024-06-27 13:57:32.0
+persist.dupdate_engine.manual_upgrade_battery_limit=20
+# 2024-06-27 13:54:29.0
+persist.dupdate_engine.night_upgrade_battery_level=30
+# 2024-08-09 09:01:04.0
+persist.dupdate_engine.para_updateCapacityVersion=1.0
+# 2024-06-27 13:49:23.0
+persist.dupdate_engine.param_auto_download_battery_limit_uncharging=50
+# 2024-06-27 13:52:26.0
+persist.dupdate_engine.pull_up_interval=1
+# 2025-02-17 16:27:34.0
+persist.multimedia.image.PostProcLaplacian.endabled=true
+# 2024-09-02 08:43:06.0
+persist.sys.abilityms.autofill.is_passwd_popup_window=true
+# 2024-03-14 10:59:11.0
+persist.sys.abilityms.grant_persist_uri_permission=true
+# 2024-03-14 10:59:11.0
+persist.sys.abilityms.inherit_window_split_screen_mode=false
+# 2024-03-14 10:59:11.0
+persist.sys.abilityms.limit_maximum_of_render_process=false
+# 2024-03-14 10:59:11.0
+persist.sys.abilityms.move_ui_ability_to_background_api_enable=false
+# 2024-03-14 10:59:11.0
+persist.sys.abilityms.multi_process_model=true
+# 2024-08-08 20:52:51.0
+persist.sys.abilityms.prevent_startability=true
+# 2024-03-14 10:59:11.0
+persist.sys.abilityms.selector_dialog_possion=false
+# 2024-06-17 10:41:51.0
+persist.sys.abilityms.start_native_child_process=true
+# 2024-03-14 10:59:11.0
+persist.sys.abilityms.start_options_with_animation=true
+# 2024-03-14 10:59:11.0
+persist.sys.abilityms.start_options_with_process_option=true
+# 2024-03-14 10:59:11.0
+persist.sys.abilityms.start_specified_process=true
+# 2024-03-14 10:59:12.0
+persist.sys.abilityms.support_anco_app=false
+# 2024-03-14 10:59:11.0
+persist.sys.abilityms.timeout_unit_time_ratio=10
+# 2024-03-14 10:59:12.0
+persist.sys.abilityms.use_multi_render_process=true
+# 2024-11-22 14:45:23.0
+persist.sys.cgroup_suppression_switch=0
+# 2024-02-22 17:39:40.0
+persist.sys.prepare_terminate=true
+# 2024-02-22 17:39:40.0
+persist.sys.resource_quota_control_enable=true
+# 2024-02-22 17:39:40.0
+persist.sys.suspend_manager_enabled=true
+# 2024-09-27 10:06:33.0
+persist.time.auto_restore_timer_apps=com.huawei.hmos.clock,com.huawei.hmos.settings,com.huawei.hmos.emergencycommunication
+# 2024-02-23 11:15:52.0
+persist.time.ntpserver=ntp.sjtu.edu.cn,time.windows.com,time.nist.gov,1.cn.pool.ntp.org,pool.ntp.org
+# 2025-02-10 15:38:22.0
+persist.time.scheduled_power_on_apps=settings_scheduled_power_on_timer
+# 2025-02-10 15:38:22.0
+persist.time.timer_across_accounts=

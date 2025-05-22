@@ -1,0 +1,26 @@
+{
+	"trust_list_config": [{
+		"name": "security_guard_event_ext.json"
+	},
+	{
+		"name": "security_guard_model_ext.cfg"
+	},
+	{
+		"name": "signature_rule.json"
+	},
+	{
+		"name": "url_rule.json"
+	},
+	{
+		"name": "local_app_attribute.json"
+	},
+	{
+		"name": "global_app_attribute.json"
+	},
+	{
+		"name": "related_event_analysis.json"
+	},
+	{
+		"name": "real_time_upload_event.json"
+	}]
+}

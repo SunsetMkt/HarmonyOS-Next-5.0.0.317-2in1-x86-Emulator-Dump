@@ -1,0 +1,655 @@
+{
+  "av_codec_config": {
+    "phone": 2560000,
+    "tablet": 2560000,
+    "2in1": 99990000,
+    "wearable": 99990000
+  },
+  "threshold": {
+    "com.alibaba.wireless_hmos": {
+      "resource_quota" : 161641
+    },
+    "com.aligames.sgzzlb.harmony99": {
+      "resource_quota" : 888717
+    },
+    "com.alipay.mobile.client": {
+      "resource_quota" : 801694
+    },
+    "com.amap.hmapp": {
+      "resource_quota" : 1295369
+    },
+    "com.baicizhan.bcz.hm": {
+      "resource_quota" : 110518
+    },
+    "com.bankabc.openharmonyapp.release": {
+      "resource_quota" : 301492
+    },
+    "com.bilibili.app.in": {
+      "resource_quota" : 432730
+    },
+    "com.campmobile.snowcamera": {
+      "resource_quota" : 252478
+    },
+    "com.chengzhu.zcydtz.hongmeng": {
+      "resource_quota" : 2045941
+    },
+    "com.chinamobile.cmcc": {
+      "resource_quota" : 259318
+    },
+    "com.chinarailway.ticketingHM": {
+      "resource_quota" : 222908
+    },
+    "com.cmbchina.ccc.cmblife": {
+      "resource_quota" : 574246
+    },
+    "com.cmbchina.harmony": {
+      "resource_quota" : 379726
+    },
+    "com.cmcc.cmvideohm": {
+      "resource_quota" : 445359
+    },
+    "com.ctrip.harmonynext": {
+      "resource_quota" : 953988
+    },
+    "com.dewu.hos": {
+      "resource_quota" : 198850
+    },
+    "com.dingtalk.hmos": {
+      "resource_quota" : 615442
+    },
+    "com.douyu.ho.app": {
+      "resource_quota" : 70121
+    },
+    "com.dragon.read.next": {
+      "resource_quota" : 365649
+    },
+    "com.droi.iapps": {
+      "resource_quota" : 107924
+    },
+    "com.droi.tong": {
+      "resource_quota" : 115075
+    },
+    "com.duole.hmos.guandanhd.huawei": {
+      "resource_quota" : 214637
+    },
+    "com.easy.abroad": {
+      "resource_quota" : 148811
+    },
+    "com.easy.abroadHarmony.temp": {
+      "resource_quota" : 96908
+    },
+    "com.enjoymi.sgzj2.hdharmony": {
+      "resource_quota" : 638577
+    },
+    "com.eusoft.ting.en.hm": {
+      "resource_quota" : 163972
+    },
+    "com.example.launcher.demo": {
+      "resource_quota" : 60924
+    },
+    "com.facebook.katana": {
+      "resource_quota" : 446258
+    },
+    "com.feeyo.variflight": {
+      "resource_quota" : 307996
+    },
+    "com.feiyu.luobo4.hm.huawei": {
+      "resource_quota" : 250846
+    },
+    "com.fenghuo.ldjxharmonyos.huawei": {
+      "resource_quota" : 1421132
+    },
+    "com.fliggy.hmos": {
+      "resource_quota" : 584000
+    },
+    "com.happyelements.OhosAnimal": {
+      "resource_quota" : 810540
+    },
+    "com.hexin.hmn.sjcg": {
+      "resource_quota" : 223886
+    },
+    "com.huawei.appmarket": {
+      "resource_quota" : 185348
+    },
+    "com.huawei.associateassistant": {
+      "resource_quota" : 47052
+    },
+    "com.huawei.hmf.grid.brick": {
+      "resource_quota" : 2306867
+    },
+    "com.huawei.hmos.advisor": {
+      "resource_quota" : 21649
+    },
+    "com.huawei.hmos.aidataservice.1": {
+      "resource_quota" : 88091
+    },
+    "com.huawei.hmos.aidispatch.1": {
+      "resource_quota" : 305947
+    },
+    "com.huawei.hmos.aidispatchservice": {
+      "resource_quota" : 62332
+    },
+    "com.huawei.hmos.asde": {
+      "resource_quota" : 30318
+    },
+    "com.huawei.hmos.audioaccessorymanager": {
+      "resource_quota" : 103388
+    },
+    "com.huawei.hmos.authcredmgr": {
+      "resource_quota" : 18261
+    },
+    "com.huawei.hmos.betaclub": {
+      "resource_quota" : 834193
+    },
+    "com.huawei.hmos.browser": {
+      "resource_quota" : 283899
+    },
+    "com.huawei.hmos.calculator": {
+      "resource_quota" : 307200
+    },
+    "com.huawei.hmos.calendardata": {
+      "resource_quota" : 151252
+    },
+    "com.huawei.hmos.callrecorder": {
+      "resource_quota" : 18678
+    },
+    "com.huawei.hmos.callsetting": {
+      "resource_quota" : 68609
+    },
+    "com.huawei.hmos.clock": {
+      "resource_quota" : 512000
+    },
+    "com.huawei.hmos.clouddrive": {
+      "resource_quota" : 333188
+    },
+    "com.huawei.hmos.dataclone": {
+      "resource_quota" : 315311
+    },
+    "com.huawei.hmos.fido": {
+      "resource_quota" : 28483
+    },
+    "com.huawei.hmos.files": {
+      "resource_quota" : 43353
+    },
+    "com.huawei.hmos.findservice": {
+      "resource_quota" : 48818
+    },
+    "com.huawei.hmos.hiviewcare": {
+      "resource_quota" : 95321
+    },
+    "com.huawei.hmos.hsdr": {
+      "resource_quota" : 34927
+    },
+    "com.huawei.hmos.maps.app": {
+      "resource_quota" : 247359
+    },
+    "com.huawei.hmos.meetimeservice": {
+      "resource_quota" : 286493
+    },
+    "com.huawei.hmos.myhuawei": {
+      "resource_quota" : 134372
+    },
+    "com.huawei.hmos.numberidentity": {
+      "resource_quota" : 25709
+    },
+    "com.huawei.hmos.privatespacemanager": {
+      "resource_quota" : 20295
+    },
+    "com.huawei.hmos.quickpay": {
+      "resource_quota" : 94029
+    },
+    "com.huawei.hmos.remotecontroller": {
+      "resource_quota" : 55280
+    },
+    "com.huawei.hmos.screenrecorder": {
+      "resource_quota" : 47047
+    },
+    "com.huawei.hmos.screenshot": {
+      "resource_quota" : 69444
+    },
+    "com.huawei.hmos.security.privacycenter": {
+      "resource_quota" : 37620
+    },
+    "com.huawei.hmos.skytone": {
+      "resource_quota" : 88240
+    },
+    "com.huawei.hmos.slassistant": {
+      "resource_quota" : 41561
+    },
+    "com.huawei.hmos.smartcare": {
+      "resource_quota" : 120946
+    },
+    "com.huawei.hmos.smartmmsservice": {
+      "resource_quota" : 40585
+    },
+    "com.huawei.hmos.soundrecorder": {
+      "resource_quota" : 96862
+    },
+    "com.huawei.hmos.spamshield": {
+      "resource_quota" : 22999
+    },
+    "com.huawei.hmos.superdevice": {
+      "resource_quota" : 23628
+    },
+    "com.huawei.hmos.superhub": {
+      "resource_quota" : 64863
+    },
+    "com.huawei.hmos.themedataservice": {
+      "resource_quota" : 42508
+    },
+    "com.huawei.hmos.tips": {
+      "resource_quota" : 121207
+    },
+    "com.huawei.hmos.trustedring": {
+      "resource_quota" : 16759
+    },
+    "com.huawei.hmos.vassistant": {
+      "resource_quota" : 405678
+    },
+    "com.huawei.hmos.wallet": {
+      "resource_quota" : 266317
+    },
+    "com.huawei.hms.findnetwork_ui": {
+      "resource_quota" : 14273
+    },
+    "com.huawei.hms.iapservice": {
+      "resource_quota" : 64460
+    },
+    "com.huawei.hms.pushservice": {
+      "resource_quota" : 30302
+    },
+    "com.huawei.hms.weather": {
+      "resource_quota" : 33928
+    },
+    "com.huawei.hmsapp.appgallery": {
+      "resource_quota" : 415044
+    },
+    "com.huawei.hmsapp.books": {
+      "resource_quota" : 1677722
+    },
+    "com.huawei.hmsapp.gamecenter": {
+      "resource_quota" : 214337
+    },
+    "com.huawei.hmsapp.hiai.vision": {
+      "resource_quota" : 1014737
+    },
+    "com.huawei.hmsapp.hiai.voice": {
+      "resource_quota" : 209942
+    },
+    "com.huawei.hmsapp.himovie": {
+      "resource_quota" : 702694
+    },
+    "com.huawei.hmsapp.hisearch": {
+      "resource_quota" : 176314
+    },
+    "com.huawei.hmsapp.intelligent": {
+      "resource_quota" : 165990
+    },
+    "com.huawei.hmsapp.litegamelauncher": {
+      "resource_quota" : 2434126
+    },
+    "com.huawei.hmsapp.music": {
+      "resource_quota" : 359116
+    },
+    "com.huawei.hmsapp.samplemanagement": {
+      "resource_quota" : 231405
+    },
+    "com.huawei.hmsapp.thememanager": {
+      "resource_quota" : 1750887
+    },
+    "com.huawei.hmsapp.totemweather": {
+      "resource_quota" : 275770
+    },
+    "com.huawei.hwid": {
+      "resource_quota" : 144607
+    },
+    "com.huawei.hwid.container1": {
+      "resource_quota" : 62224
+    },
+    "com.huawei.hwid.container2": {
+      "resource_quota" : 83418
+    },
+    "com.huawei.hwid.container3": {
+      "resource_quota" : 50331
+    },
+    "com.huawei.hwid.core": {
+      "resource_quota" : 177765
+    },
+    "com.huawei.hwid.persistent": {
+      "resource_quota" : 58085
+    },
+    "com.huawei.iaware": {
+      "resource_quota" : 68859
+    },
+    "com.huawei.inputmethod.anco": {
+      "resource_quota" : 25206
+    },
+    "com.huawei.it.hmxinsheng": {
+      "resource_quota" : 181487
+    },
+    "com.huawei.it.welink": {
+      "resource_quota" : 1333713
+    },
+    "com.huawei.it.works": {
+      "resource_quota" : 557734
+    },
+    "com.huawei.it.wps": {
+      "resource_quota" : 258268
+    },
+    "com.huawei.shell_assistant": {
+      "resource_quota" : 53153
+    },
+    "com.huawei.systemserver": {
+      "resource_quota" : 27863
+    },
+    "com.huxiu.client": {
+      "resource_quota" : 151453
+    },
+    "com.ifeimo.screeclibinvoke": {
+      "resource_quota" : 46470
+    },
+    "com.ifeng.news.hmos": {
+      "resource_quota" : 315200
+    },
+    "com.javgameNew.tlj.hap": {
+      "resource_quota" : 627966
+    },
+    "com.jd.hm.mall": {
+      "resource_quota" : 800444
+    },
+    "com.jifen.qukan": {
+      "resource_quota" : 527255
+    },
+    "com.kiloo.subwaysurf.huaweihm": {
+      "resource_quota" : 1213159
+    },
+    "com.kuaishou.hmapp": {
+      "resource_quota" : 1162844
+    },
+    "com.kugou.hmmusic": {
+      "resource_quota" : 115097
+    },
+    "com.larus.nova": {
+      "resource_quota" : 344035
+    },
+    "com.lets.p3.hongmeng": {
+      "resource_quota" : 121986
+    },
+    "com.lianhezhuli.mtwear": {
+      "resource_quota" : 261132
+    },
+    "com.luna.hm.music": {
+      "resource_quota" : 268534
+    },
+    "com.marriott.mrt": {
+      "resource_quota" : 278191
+    },
+    "com.miHoYo.Yuanshen": {
+      "resource_quota" : 1970067
+    },
+    "com.microsoft.emmx_zygote": {
+      "resource_quota" : 18955
+    },
+    "com.mmbox.xbrowser.pro": {
+      "resource_quota" : 177880
+    },
+    "com.moji.hmweather": {
+      "resource_quota" : 114146
+    },
+    "com.ohos.FusionSearch": {
+      "resource_quota" : 91326
+    },
+    "com.ohos.ringtonelibrary.ringtonelibrarydata": {
+      "resource_quota" : 6580
+    },
+    "com.p1.mobile.putong": {
+      "resource_quota" : 1488479
+    },
+    "com.pingan.oharm.carowner": {
+      "resource_quota" : 556369
+    },
+    "com.qihoo.hms.browser": {
+      "resource_quota" : 155263
+    },
+    "com.qileyx.ddz.huaweiohos": {
+      "resource_quota" : 293383
+    },
+    "com.qimao.novel": {
+      "resource_quota" : 247009
+    },
+    "com.qiyi.video.hmy": {
+      "resource_quota" : 355554
+    },
+    "com.samples.mediaprovider": {
+      "resource_quota" : 70108
+    },
+    "com.sankuai.dianping": {
+      "resource_quota" : 739384
+    },
+    "com.sankuai.hmeituan": {
+      "resource_quota" : 678166
+    },
+    "com.sankuai.meituan": {
+      "resource_quota" : 526957
+    },
+    "com.screeclibinvoke": {
+      "resource_quota" : 364337
+    },
+    "com.sdu.didi.hmos.psnger": {
+      "resource_quota" : 489264
+    },
+    "com.sina.news.hm.next": {
+      "resource_quota" : 251314
+    },
+    "com.sina.weibo.stage": {
+      "resource_quota" : 699432
+    },
+    "com.sisensing.sisensingcgm": {
+      "resource_quota" : 189296
+    },
+    "com.smartcom.itravelhm": {
+      "resource_quota" : 895270
+    },
+    "com.smzdm.client.hmos": {
+      "resource_quota" : 271683
+    },
+    "com.sohu.sohuvideoharmony": {
+      "resource_quota" : 245431
+    },
+    "com.spotify.music": {
+      "resource_quota" : 453650
+    },
+    "com.ss.hm.article.news": {
+      "resource_quota" : 1583808
+    },
+    "com.ss.hm.ugc.aweme": {
+      "resource_quota" : 1003810
+    },
+    "com.taobao.taobao4hmos": {
+      "resource_quota" : 955569
+    },
+    "com.telecom.cgqhm": {
+      "resource_quota" : 124207
+    },
+    "com.tencent.gate": {
+      "resource_quota" : 1694829
+    },
+    "com.tencent.hm.qqmusic": {
+      "resource_quota" : 299175
+    },
+    "com.tencent.mm": {
+      "resource_quota" : 482860
+    },
+    "com.tencent.videohm": {
+      "resource_quota" : 1591992
+    },
+    "com.tencent.weread": {
+      "resource_quota" : 546859
+    },
+    "com.tuhu.tuhuharmony": {
+      "resource_quota" : 426883
+    },
+    "com.tzone.muyunext": {
+      "resource_quota" : 27222
+    },
+    "com.uc.mobile": {
+      "resource_quota" : 396089
+    },
+    "com.umetrip.hm.app": {
+      "resource_quota" : 150288
+    },
+    "com.unionpay.hmos.wallet": {
+      "resource_quota" : 125198
+    },
+    "com.vip.hosapp": {
+      "resource_quota" : 296191
+    },
+    "com.wepie.snake.huawei.ohm": {
+      "resource_quota" : 743138
+    },
+    "com.whatsapp": {
+      "resource_quota" : 206904
+    },
+    "com.xiaomi.smarthome": {
+      "resource_quota" : 216259
+    },
+    "com.ximalaya.ting.xmharmony": {
+      "resource_quota" : 410683
+    },
+    "com.xingin.xhs_hos": {
+      "resource_quota" : 1219841
+    },
+    "com.xs.fm.next": {
+      "resource_quota" : 354095
+    },
+    "com.xunlei.thunder": {
+      "resource_quota" : 102057
+    },
+    "com.yandex.browser_zygote": {
+      "resource_quota" : 32856
+    },
+    "com.yoka.sgs.hm.hw": {
+      "resource_quota" : 466726
+    },
+    "com.youku.next": {
+      "resource_quota" : 259740
+    },
+    "com.yt.radioHarmony": {
+      "resource_quota" : 450163
+    },
+    "com.zengame.zjscmj.hm": {
+      "resource_quota" : 733985
+    },
+    "com.zhihu.hmos": {
+      "resource_quota" : 417227
+    },
+    "com.zhuoyi.appstore.lite": {
+      "resource_quota" : 468348
+    },
+    "com.minitech.miniworld.hm": {
+      "resource_quota" : 3000000
+    },
+    "com.happyelements.OhosAnimal": {
+      "resource_quota" : 3000000
+    },
+    "com.kiloo.subwaysurf.huaweihm": {
+      "resource_quota" : 3000000
+    },
+    "com.aligames.sgzzlb.harmony99": {
+      "resource_quota" : 3000000
+    },
+    "com.wepie.snake.huawei.ohm": {
+      "resource_quota" : 3000000
+    },
+    "com.tencent.tmgp.pubgmhd.hw": {
+      "resource_quota" : 3000000
+    },
+    "com.tencent.tmgp.sgame.hw": {
+      "resource_quota" : 3000000
+    },
+    "com.tencent.tmgp.codty.hw": {
+      "resource_quota" : 3000000
+    },
+    "com.tencent.HKiHan": {
+      "resource_quota" : 3000000
+    },
+    "com.netease.nshm.hm": {
+      "resource_quota" : 3000000
+    },
+    "com.netease.party.hm": {
+      "resource_quota" : 3000000
+    },
+    "com.netease.my.hm": {
+      "resource_quota" : 3000000
+    },
+    "com.netease.l10.hm": {
+      "resource_quota" : 3000000
+    },
+    "com.netease.dhxy.hm": {
+      "resource_quota" : 3000000
+    },
+    "com.miHoYo.YuanShen": {
+      "resource_quota" : 3000000
+    },
+    "com.tencent.jkchess.huawei": {
+      "resource_quota" : 3000000
+    },
+    "com.tencent.qqgame.xq.hw": {
+      "resource_quota" : 3000000
+    },
+    "com.tencent.peng.hw": {
+      "resource_quota" : 3000000
+    },
+    "com.qqgame.happymj.huawei": {
+      "resource_quota" : 3000000
+    },
+    "com.qqgame.hlddz.huawei": {
+      "resource_quota" : 3000000
+    },
+    "com.guandan.hap": {
+      "resource_quota" : 3000000
+    },
+    "com.yoka.sgs.hm.hw": {
+      "resource_quota" : 3000000
+    },
+    "cn.jj.TKLobby": {
+      "resource_quota" : 3000000
+    },
+    "com.bilibili.blhx.harmonyblhx": {
+      "resource_quota" : 3000000
+    },
+    "com.shenlan.m.reverse1999.hm": {
+      "resource_quota" : 3000000
+    },
+    "com.duole.hmos.guandanhd.huawei": {
+      "resource_quota" : 3000000
+    },
+    "com.ahlh.frxxzrjp.sylhharmony": {
+      "resource_quota" : 3000000
+    },
+    "com.mfp.jelly.huaweiohos": {
+      "resource_quota" : 3000000
+    },
+    "com.zulong.yslzmharmonyos": {
+      "resource_quota" : 3000000
+    },
+    "com.tencent.tmgp.cf.hw": {
+      "resource_quota" : 3000000
+    },
+    "com.tencent.tmgp.speedmobile.hw": {
+      "resource_quota" : 3000000
+    },
+    "com.miHoYo.hkrpg": {
+      "resource_quota" : 3000000
+    },
+    "com.hermes.p6game.hm": {
+      "resource_quota" : 3000000
+    },
+    "com.tencent.tmgp.cod.hw": {
+      "resource_quota" : 3000000
+    },
+    "com.tencent.tmgp.sgamece.hw": {
+      "resource_quota" : 3000000
+    }
+  }
+}

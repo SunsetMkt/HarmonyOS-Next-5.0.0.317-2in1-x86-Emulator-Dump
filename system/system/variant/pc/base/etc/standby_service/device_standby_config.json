@@ -1,0 +1,44 @@
+{
+  "version": "1.19.24.100",
+  "plugin_name": "libstandby_plugin.z.so",
+  "standby": {
+    "dark_timeout": 60,
+    "nap_timeout": 1200,
+    "nap_maintenance_timeout": 60,
+    "sleep_maintenance_timeout": 300,
+    "nap_switch": false,
+    "sleep_switch": true,
+    "s3_switch": true,
+    "ulsr_wait_time": 14400,
+    "low_battery": 5,
+    "network_wait_time": 1800,
+    "battery_consumption": 5,
+    "battery_consumption_check_time": 3
+  },
+  "detect_list": {
+    "motion_threshold": 1,
+    "detect_motion": false,
+    "motion_angle": 1,
+    "detect_location": false
+  },
+  "maintenance_list": {
+    "nap_interval": [
+      300,
+      600,
+      900
+    ],
+    "sleep_interval": [
+      3600,
+      7200,
+      14400,
+      21600
+    ]
+  },
+   "strategy_list": {
+    "TIMER": true,
+    "RUNNING_LOCK": true,
+    "MXSR_POLICY": true,
+    "NETWORK": true
+  },
+  "halfhour_switch_setting": {}
+}

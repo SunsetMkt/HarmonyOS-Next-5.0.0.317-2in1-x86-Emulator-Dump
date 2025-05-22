@@ -1,0 +1,100 @@
+{
+  "apps": [
+    {
+      "name": "com.fanshu.book",
+      "homepage": "",
+      "mode": 1,
+      "supportSplit": false
+    },
+    {
+      "name": "cn.com.spdb.mobilebank.hos.per",
+      "homepage": "",
+      "mode": 1,
+      "supportSplit": false
+    },
+    {
+      "name": "com.boc.bocsoft.mbs.personal",
+      "homepage": "",
+      "mode": 1,
+      "supportSplit": false
+    },
+    {
+      "name": "com.ss.hm.article.news",
+      "homepage": "",
+      "mode": 3,
+      "supportSplit": false
+    },
+    {
+      "name": "com.kuaiduizuoye.hm",
+      "homepage": "",
+      "mode": 3,
+      "supportSplit": false
+    },
+    {
+      "name": "com.kuaishou.hmapp",
+      "homepage": "",
+      "mode": 3,
+      "supportSplit": false
+    },
+    {
+      "name": "com.sohu.harmonynews",
+      "homepage": "",
+      "mode": 3,
+      "supportSplit": false
+    },
+    {
+      "name": "com.tianyancha.skyeye.hm",
+      "homepage": "",
+      "mode": 3,
+      "supportSplit": true
+    },
+    {
+      "name": "com.sina.weibo.stage",
+      "homepage": "",
+      "mode": 3,
+      "supportSplit": true
+    },
+    {
+      "name": "com.ctrip.harmonynext",
+      "homepage": "",
+      "mode": 3,
+      "supportSplit": false
+    },
+    {
+      "name": "cn.xuexi.qg4ohos",
+      "homepage": "",
+      "mode": 3,
+      "supportSplit": true
+    },
+    {
+      "name": "com.psbc.mbank.hm",
+      "homepage": "",
+      "mode": 3,
+      "supportSplit": true
+    },
+    {
+      "name": "com.baicizhan.bcz.hm",
+      "homepage": "",
+      "mode": 4,
+      "supportSplit": true
+    },
+    {
+      "name": "com.ximalaya.ting.xmharmony",
+      "homepage": "",
+      "mode": 4,
+      "supportSplit": true
+    },
+    {
+      "name": "com.xuexitong.study",
+      "homepage": "",
+      "mode": 4,
+      "supportSplit": true
+    },
+    {
+      "name": "com.zhibo8.hmclient",
+      "homepage": "",
+      "mode": 4,
+      "supportSplit": true
+    }
+  ]
+}

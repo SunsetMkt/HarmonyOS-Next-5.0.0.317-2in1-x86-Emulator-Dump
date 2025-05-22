@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright (C) 2024 Huawei Device Co., Ltd.
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+/ -->
+<WifiPackages>
+    <ScanControlPackages>
+        <scan_thermal_filter>
+            <package name="com.huawei.hmos.settings"></package>
+        </scan_thermal_filter>
+        <scan_frequency_filter>
+            <package name="com.huawei.hmos.settings"></package>
+            <package name="com.huawei.hmos.ailifesvc"></package>
+            <package name="com.huawei.hmos.dataclone"></package>
+        </scan_frequency_filter>
+        <scan_screen_off_filter>
+        </scan_screen_off_filter>
+        <scan_gps_filter>
+        </scan_gps_filter>
+        <scan_hid2d_filter>
+            <package name="com.huawei.hmos.settings"></package>
+        </scan_hid2d_filter>
+    </ScanControlPackages>
+
+    <CandidateFilterPackages>
+        <package name="com.huawei.it.works"></package>
+        <package name="com.huawei.it.welink"></package>
+    </CandidateFilterPackages>
+
+    <CorePackages>
+        <SCENEBOARD_BUNDLE>
+            <package name="com.ohos.sceneboard"></package>
+        </SCENEBOARD_BUNDLE>
+        <SETTINGS>
+            <package name="com.huawei.hmos.settings"></package>
+        </SETTINGS>
+        <BROWSER_BUNDLE>
+            <package name="com.huawei.hmos.browser"></package>
+        </BROWSER_BUNDLE>
+        <anco_broker_name>
+            <package name="anco_service_broker"></package>
+        </anco_broker_name>
+        <DATA_CLONE>
+            <package name="com.huawei.hmos.dataclone"></package>
+        </DATA_CLONE>
+        <HOME_ROUTER_REDIRECTED_URL>
+            <url name="miwifi.com/diagnosis/index.html"></url>
+        </HOME_ROUTER_REDIRECTED_URL>
+    </CorePackages>
+	
+    <AclAuthPackages>
+        <package name="com.huawei.it.welink" appid="5765880207854533797"></package>
+        <package name="com.huawei.it.welink.uat" appid="5765880207854594119"></package>
+        <package name="com.huawei.it.works" appid="1234781243808164608"></package>
+        <package name="com.huawei.it.welink.uat" appid="5765880207855351473"></package>
+    </AclAuthPackages>
+</WifiPackages>

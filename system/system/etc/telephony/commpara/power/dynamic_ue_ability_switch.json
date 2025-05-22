@@ -1,0 +1,13 @@
+{
+    "DEFAULT": {
+        "CITY_LIST": ["南通市","无锡市","南京市","温州市","金华市","上海市","苏州市","杭州市","宁波市","深圳市"],
+        "DRX_ADAPT": true,
+        "UL_SKIP_DYNAMIC": false,
+        "RELEASE_PREFER": true,
+        "DRX_PREFER": true,
+        "SMART_PRESCHEDULE": true,
+        "MAXCC_PREFER": true,
+        "MAXMIMOLAYER_PREFER": true
+    },
+    "PROP_POWSAV_CLOUD_PUSH": true
+}

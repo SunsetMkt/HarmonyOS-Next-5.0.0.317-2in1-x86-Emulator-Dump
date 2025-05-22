@@ -1,0 +1,12 @@
+{
+    "process": "sandbox_manager_service",
+    "systemability": [
+        {
+            "name": 3508,
+            "libpath": "libsandbox_manager_service.z.so",
+            "run-on-create": true,
+            "distributed": false,
+            "dump_level": 1
+        }
+    ]
+}

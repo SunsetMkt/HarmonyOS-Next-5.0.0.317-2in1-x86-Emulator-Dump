@@ -1,0 +1,91 @@
+{
+  "notificationService": {
+    "dfxNormalEvent": [
+      "com.tencent.wechat"
+    ],
+    "multiDeviceReminder": [
+      {
+        "deviceType": "headset",
+        "reminderFilterDevice": [
+          {
+            "reminderFilterSlot": [
+              {
+                "reminderFlags": "000001",
+                "status": "xxx1"
+              }
+            ],
+            "slotType": "Social_communication|Service_reminder|Content_information|Other|Live_view|Custom_service|Emergency_information"
+          }
+        ]
+      }
+    ]
+  },
+  "appPrivileges": {
+    "com.ohos.callui": "1101",
+    "com.huawei.hmos.clock": "11",
+    "com.huawei.hmos.hicar": "11",
+    "com.huawei.hmos.slassistant": "11",
+    "com.huawei.hmos.devicecollaboration": "11",
+    "com.huawei.hmos.huaweicast": "1",
+    "com.huawei.hmos.soundrecorder": "1",
+    "com.huawei.hmos.screenrecorder": "1",
+    "com.huawei.hmos.instantshare": "1101",
+    "com.huawei.hmos.meetimeservice": "1101",
+    "com.ohos.spooler": "1",
+    "com.ohos.mms": "11",
+    "com.huawei.hmos.ouc": "1101",
+    "com.huawei.hmos.migrateclient": "1001",
+    "com.huawei.hmos.calendar": "01",
+    "com.huawei.hmos.calendardata": "011",
+    "com.huawei.hmos.settings": "01",
+    "com.huawei.hmsapp.intelligent": "01",
+    "com.huawei.hmos.health": "011",
+    "com.huawei.hmos.health.core": "01",
+    "com.huawei.hms.payment": "01",
+    "com.huawei.hmos.dataclone": "01",
+    "com.huawei.hmos.notepad": "011",
+    "com.huawei.hmos.tips": "01",
+    "com.huawei.hmos.tips.widget": "01",
+    "com.huawei.hmos.parentcontrol": "01",
+    "com.huawei.hmos.finddevice": "01",
+    "com.huawei.hmos.findservice": "01",
+    "com.huawei.hmos.meetime": "01",
+    "com.huawei.hmos.databackup": "01",
+    "com.huawei.hmos.cardistributedassist": "01",
+    "com.huawei.welinknow": "01",
+    "com.huawei.parentcontrol.parent": "01",
+    "com.huawei.works": "01",
+    "com.huawei.welink": "01",
+    "com.ohos.locationdialog": "0101",
+    "com.huawei.hmos.hiviewcar": "01",
+    "com.huawei.hmos.hiviewcare": "0101",
+    "com.tencent.wechat": "01",
+    "com.huawei.hms.musicservice": "1",
+    "com.vanyun.onetalk.hms.app": "01",
+    "com.moji.hmweather": "01",
+    "com.dingtalk.hmos": "01",
+    "com.youloft.calendar.har": "01",
+    "com.sgai.dbzsharmonyos": "01",
+    "com.gotokeep.hm.keep": "01",
+    "com.thejoyrun.joyrun": "01",
+    "com.alipay.mobile.client": "01",
+    "com.csair.ehomehos": "01",
+    "cn.xuexi.qg4ohos": "01",
+    "com.easy.hmos.abroad": "01",
+    "com.ss.feishu": "01",
+    "com.ss.hm.ugc.aweme": "01",
+    "com.tencent.wework.hmos": "01",
+    "com.tencent.mqq": "01",
+    "com.tencent.weworklocal.hmos": "01",
+    "com.tencent.weworkenterprise.hmos": "01",
+    "com.tencent.meeting.app": "01",
+    "com.huawei.hmos.callsetting": "0001",
+    "com.ohos.contacts": "0001",
+    "com.huawei.hmsapp.hiai": "0001",
+    "com.ohos.sceneboard": "01",
+    "com.huawei.hmos.vassistant": "01"
+  },
+  "deviceInfo": {
+    "isPc": true
+  }
+}

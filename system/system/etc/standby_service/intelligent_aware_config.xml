@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IntelligentAware version="1.19.24.100" atttNum="5">
+    <scene name="all_scenario" id="0">
+        <profile name="thermal_user" id="00010">
+            <policy name="CHG_DIFF" value="1"/>
+        </profile>
+        <profile name="60Hz" id="00001">
+            <policy name="SCENE_POWER" value="1"/>
+        </profile>
+    </scene>
+    <scene name="douyin_charging" id="1">
+        <profile name="female_iphone" id="10100">
+            <policy name="CHG_DIFF" value="2"/>
+        </profile>
+    </scene>
+    <scene name="low_bright" id="2">
+        <profile name="all_people" id="00000">
+            <policy name="SCENE_POWER" value="4"/>
+        </profile>
+    </scene>
+    <scene name="high_bright" id="3">
+        <profile name="60Hz" id="00001">
+            <policy name="SCENE_POWER" value="8"/>
+        </profile>
+    </scene>
+    <scene name="case_tmp_over_40" id="4">
+        <profile name="all_people" id="00000">
+            <policy name="SCENE_POWER" value="2"/>
+        </profile>
+    </scene>
+</IntelligentAware>

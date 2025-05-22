@@ -1,0 +1,8 @@
+{
+    "startAbilityWithoutCallerToken": [
+        {
+            "bundleName": "com.huawei.hmos.settings",
+            "abilityName": "com.huawei.hmos.settings.MainAbility"
+        }
+    ]
+}

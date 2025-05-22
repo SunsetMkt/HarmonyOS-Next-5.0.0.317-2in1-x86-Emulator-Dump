@@ -1,0 +1,12 @@
+{
+    "process": "data_monitor_service",
+    "systemability": [
+        {
+            "name": 5402,
+            "libpath": "libdata_monitor_service.z.so",
+            "run-on-create": true,
+            "auto-restart": false,
+            "distributed": false
+        }
+    ]
+}

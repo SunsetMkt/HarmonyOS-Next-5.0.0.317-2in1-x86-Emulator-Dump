@@ -1,0 +1,48 @@
+# 2024-03-28 09:58:31.0
+atomic.service.distribute.engine.bundle.name=com.huawei.hmos.asde
+# 2024-08-27 16:33:32.0
+const.abilityms.enable_uiservice=true
+# 2024-08-19 20:52:19.0
+const.appsecurityprivacycenter.directory.permission_enabled=1
+# 2024-07-05 16:46:23.0
+const.booster.virtual_modem_switch=false
+# 2024-02-22 17:39:40.0
+const.cust.cversion=C01
+# 2024-07-18 10:16:30.0
+const.filemanagement.device_Id=0
+# 2024-05-16 19:26:28.0
+const.filemanagement.enable_sandbox_monitor=true
+# 2024-03-22 11:50:39.0
+const.meetcall.float.window=false
+# 2024-04-29 11:12:08.0
+const.meetime.support.message=true
+# 2024-08-08 16:17:18.0
+const.settings.nal_web_url=https://jwxkwap.miit.gov.cn/eAuthenticityQueryDetails
+# 2024-02-22 17:39:40.0
+const.telephony.preferredNetworkType=12
+# 2024-12-23 11:23:23.0
+const.usb_manager.supported_functions=charge
+# 2024-04-22 14:28:31.0
+const.wifi.country_code.conf=30
+# 2024-07-29 19:24:15.0
+const.wifi.startup_wifi_enable=true
+# 2024-07-31 16:19:34.0
+const.window.multiWindowUIType=FreeFormMultiWindow
+# 2024-02-22 17:39:40.0
+hw_sc.hmos_font.enabled=true
+# 2024-08-22 14:53:05.0
+persist.dupdate_engine.ha_collect_url=https://metrics1-drcn.dt.dbankcloud.cn:443
+# 2024-08-22 21:26:50.0
+persist.dupdate_engine.report_pbs_domain=https://psi-cn.emui.dbankcloud.com
+# 2024-04-29 10:36:29.0
+persist.dupdate_engine.update_hota_domain=https://update-drcn.platform.hicloud.com
+# 2024-10-31 20:23:11.0
+persist.sys.netsysnative_dns_servers_backup=223.5.5.5
+# 2024-09-27 10:06:33.0
+persist.time.auto_restore_timer_apps=com.huawei.hmos.clock,com.huawei.hmos.settings,com.huawei.hmos.emergencycommunication
+# 2024-02-23 11:15:52.0
+persist.time.ntpserver=1.cn.pool.ntp.org,ntp.sjtu.edu.cn,time.windows.com,time.nist.gov,pool.ntp.org
+# 2025-02-10 15:38:22.0
+persist.time.scheduled_power_on_apps=settings_scheduled_power_on_timer
+# 2025-02-10 15:38:22.0
+persist.time.timer_across_accounts=

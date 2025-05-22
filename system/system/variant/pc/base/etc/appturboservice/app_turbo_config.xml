@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <version>1.0.0</version>
+  <Module ModuleName="DecisionEngine">
+    <Param KeyName="RecommandFileLimit" Value="20"/>
+  </Module>
+  <Module ModuleName="BatchFilter">
+    <Param KeyName="BatchFilterTime" Value="60"/>
+    <Param KeyName="BatchFilterFileLimit" Value="5"/>
+  </Module>
+  <Module ModuleName="TimeQuota">
+    <Param KeyName="PowerConsumption" Value="5000"/>
+    <Param KeyName="PowerPercent" Value="0.5"/>
+  </Module>
+  <Module ModuleName="UserSwitch">
+    <Param KeyName="FeatureSwitchDefault" Value="1"/>
+    <Param KeyName="AppSwitchDefault" Value="0"/>
+  </Module>
+  <Module ModuleName="ComponentConfig">
+    <Param KeyName="IsSupportCloudPush" Value="1"/>
+    <Param KeyName="IsOnlySupport3DDir" Value="0"/>
+  </Module>
+</config>

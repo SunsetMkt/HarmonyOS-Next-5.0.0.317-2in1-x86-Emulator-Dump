@@ -1,0 +1,8 @@
+{
+	"trust_list_config": [{
+		"name": "security_guard_event.json"
+	},
+	{
+		"name": "security_guard_model.cfg"
+	}]
+}

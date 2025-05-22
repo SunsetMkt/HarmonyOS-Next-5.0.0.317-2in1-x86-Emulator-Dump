@@ -1,0 +1,12 @@
+{
+  "support_file_type": [
+    ".ppt",
+    ".pptx",
+    ".doc",
+    ".docx",
+    ".xls",
+    ".xlsx",
+    ".txt",
+    ".pdf"
+  ]
+}

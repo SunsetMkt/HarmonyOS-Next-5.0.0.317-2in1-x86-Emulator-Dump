@@ -1,0 +1,43 @@
+{
+  "systemConfig": {
+    "enableInputMethodFeature": true,
+    "enableFullExperienceFeature": true,
+    "initEnabledState": 1
+  },
+  "supportedInputTypeList": [
+    {
+      "inputType": 1,
+      "bundleName": "com.huawei.hmos.inputmethod",
+      "subtypeId": "InputPwdService"
+    }
+  ],
+  "defaultFullImeList": [
+    {
+      "appIdentifier": "1173759633894955328",
+      "expirationTime": "2024-11-30 23:59:59",
+      "expirationVersionCode": 1201
+    },
+    {
+      "appIdentifier": "5765880207854664467",
+      "expirationTime": "2024-11-30 23:59:59"
+    },
+    {
+      "appIdentifier": "5765880207854517329",
+      "expirationTime": "2024-11-30 23:59:59"
+    },
+    {
+      "appIdentifier": "5765880207854202175",
+      "expirationTime": "2024-11-30 23:59:59"
+    },
+    {
+      "appIdentifier": "5765880207855351113",
+      "expirationTime": "2024-11-30 23:59:59",
+      "expirationVersionCode": 11
+    },
+    {
+      "appIdentifier": "5765880207855275657",
+      "expirationTime": "2024-11-30 23:59:59",
+      "expirationVersionCode": 1100
+    }
+  ]
+}

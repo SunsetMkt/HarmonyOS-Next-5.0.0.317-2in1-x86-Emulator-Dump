@@ -1,0 +1,47 @@
+{
+    "process": "file_system_service",
+    "systemability": [
+        {
+            "name": 5400,
+            "libpath": "libfile_system_service.z.so",
+            "run-on-create": false,
+            "auto-restart": true,
+            "distributed": false,
+            "dump-level": 1,
+            "start-on-demand": {
+                "commonevent": [
+                    {
+                        "name": "usual.event.SCREEN_OFF",
+                        "conditions": [
+                            {
+                                "eventId": "commonevent",
+                                "name": "usual.event.CHARGING"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "stop-on-demand": {
+                "allow-update": false,
+                "recycle-delaytime": 0,
+                "commonevent": [
+                    {
+                        "name": "usual.event.SCREEN_ON"
+                    },
+                    {
+                        "name": "usual.event.DISCHARGING"
+                    }
+                ]
+            }
+        },
+        {
+            "name": 5401,
+            "libpath": "libioqos_service.z.so",
+            "run-on-create": false,
+            "auto-restart": false,
+            "distributed": false,
+            "recycle-strategy": "low-memory",
+            "dump-level": 1
+        }
+    ]
+}

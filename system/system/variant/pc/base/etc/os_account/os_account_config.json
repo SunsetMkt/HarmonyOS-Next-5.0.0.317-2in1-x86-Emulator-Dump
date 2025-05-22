@@ -1,0 +1,8 @@
+{
+  "maxOsAccountNum": 5,
+  "maxLoggedInOsAccountNum": 3,
+  "PINEnforced": true,
+  "developerMode": {
+    "maxLoggedInOsAccountNum": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+    "default_models": {
+        "text": {
+            "name": "clip_semantic_folder_mean_250209_v1",
+            "version": "0"
+        },
+        "image": {
+            "name": "clip_semantic_folder_mean_250209_v1",
+            "version": "0"
+        }
+    },
+    "models": {
+        "text": {
+            "clip_semantic_folder_mean_250209_v1": {
+                "0": {
+                    "model_file_name": "baize-text-77m-length512-wq-int8-mean-v3.ms",
+                    "parameters": {}
+                }
+            }
+        },
+        "image": {
+            "clip_semantic_folder_mean_250209_v1": {
+                "0": {
+                    "model_file_name": "baize-vision-77m-wq-int8.ms",
+                    "parameters": {}
+                }
+            }
+        }
+    }
+}

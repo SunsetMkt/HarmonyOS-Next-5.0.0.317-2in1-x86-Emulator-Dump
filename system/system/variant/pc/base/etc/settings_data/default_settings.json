@@ -1,0 +1,182 @@
+{
+  "settings": [
+    {
+      "name": "settings.telephony.number_identity_switch",
+      "value": "1"
+    },
+    {
+      "name": "settings.telephony.calllogmergetype",
+      "value": "time"
+    },
+    {
+      "name": "settings.telephony.callnotifytype",
+      "value": "fullScreen"
+    },
+    {
+      "name": "settings.audio.ringtone",
+      "value": "5"
+    },
+    {
+      "name": "settings.audio.media",
+      "value": "5"
+    },
+    {
+      "name": "settings.audio.voicecall",
+      "value": "5"
+    },
+    {
+      "name": "settings.display.navigationbar_status",
+      "value": "1"
+    },
+    {
+      "name": "cellular_data_enable",
+      "value": "1"
+    },
+    {
+      "name": "settings.display.auto_screen_brightness",
+      "value": "1"
+    },
+    {
+      "name": "ota_disable_automatic_update",
+      "value": "1"
+    },
+    {
+      "name": "POWER_KEY_DOUBLE_CLICK_FOR_WALLET",
+      "value": "true"
+    },
+    {
+      "name": "settings.collaboration.multi_device_collaboration_service_switch",
+      "value": "1"
+    },
+    {
+      "name": "settings.camera.mute_persist",
+      "value": "0"
+    },
+    {
+      "name": "settings.power.hibernate_flag",
+      "value": "1"
+    },
+    {
+      "name": "settings.power.wake_on_lid_open",
+      "value": "0"
+    },
+    {
+      "name": "settings.display.screen_off_timeout",
+      "value": "30000"
+    },
+    {
+      "name": "spamshield_web_urlchecking",
+      "value": "1"
+    },
+    {
+      "name": "physic_navi_haptic_feedback_enabled",
+      "value": "1"
+    }
+  ],
+  "user": [
+    {
+      "name": "settings.display.eye_comfort_mode",
+      "value": "0"
+    },
+    {
+      "name": "fusion_call_switch",
+      "value": "0"
+    },
+    {
+      "name": "incall_power_button_behavior",
+      "value": "0"
+    },
+    {
+      "name": "video_ringback_tone_settings",
+      "value": "1"
+    },
+    {
+      "name": "video_ringtone_switch_status",
+      "value": "show"
+    },
+    {
+      "name": "font_scale",
+      "value": "1"
+    },
+    {
+      "name": "font_weight_scale",
+      "value": "1"
+    },
+    {
+      "name": "lockscreen_sounds_enabled",
+      "value": "1"
+    }
+  ],
+  "userSecure": [
+    {
+      "name": "passwordvault_cloudsync",
+      "value": "close"
+    },
+    {
+      "name": "autofill_service",
+      "value": "com.huawei.hmos.passwordvault/entry/AutoFillAbility"
+    },
+    {
+      "name": "settings.display.ac.screen_off_timeout",
+      "value": "600000"
+    },
+    {
+      "name": "settings.display.dc.screen_off_timeout",
+      "value": "300000"
+    },
+    {
+      "name": "settings.power.ac.suspend_sources",
+      "value": {
+        "powerkey": {
+          "action": 2,
+          "delayMs": 0
+        },
+        "timeout": {
+          "action": 1,
+          "delayMs": 0
+        },
+        "lid": {
+          "action": 1,
+          "delayMs": 0
+        },
+        "switch": {
+          "action": 2,
+          "delayMs": 0
+        }
+      }
+    },
+    {
+      "name": "settings.power.dc.suspend_sources",
+      "value": {
+        "powerkey": {
+          "action": 2,
+          "delayMs": 0
+        },
+        "timeout": {
+          "action": 1,
+          "delayMs": 0
+        },
+        "lid": {
+          "action": 1,
+          "delayMs": 0
+        },
+        "switch": {
+          "action": 2,
+          "delayMs": 0
+        }
+      }
+    },
+    {
+      "name": "Continue_Switch_Status",
+      "value": "1"
+    },
+    {
+      "name": "associate_assistant_state",
+      "value": "1"
+    },
+    {
+      "name": "associate_assistant_edge_state",
+      "value": "1"
+    }
+  ]
+}

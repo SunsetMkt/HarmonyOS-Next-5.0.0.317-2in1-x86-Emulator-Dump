@@ -1,0 +1,8 @@
+{
+  "uninstall_list": [
+    "/system/app/AutoRegService",
+    "/system/app/NumberIdentity",
+    "/system/app/SpaceDataTransfer"
+  ],
+  "recover_list": []
+}

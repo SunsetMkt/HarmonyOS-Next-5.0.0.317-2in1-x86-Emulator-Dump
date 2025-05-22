@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<audio_effects_conf version="2.0">
+  <libraries>
+    <library name="histen" path="libaudio_integration.z.so"/>
+    <library name="hvs" path="libaudio_integration_hvs.z.so"/>
+    <library name="voip" path="libvoip_up_process.so"/>
+    <library name="record" path="librecord_process.so"/>
+  </libraries>
+  <effects>
+    <effect name="histen" library="histen"/>
+    <effect name="hvs" library="hvs"/>
+    <effect name="voip" library="voip">
+      <effectProperty mode="normal_NR"/>
+      <effectProperty mode="personal_NR"/>
+    </effect>
+    <effect name="record" library="record"/>
+  </effects>
+  <effectChains>
+    <effectChain name="EFFECTCHAIN_SPK_MUSIC" label="">
+      <apply effect="histen"/>
+    </effectChain>
+    <effectChain name="EFFECTCHAIN_BT_MUSIC" label="">
+      <apply effect="hvs"/>
+    </effectChain>
+    <effectChain name="EFFECTCHAIN_VOIP_3A" label="">
+      <apply effect="voip"/>
+    </effectChain>
+    <effectChain name="EFFECTCHAIN_RECORD" label="">
+      <apply effect="record"/>
+    </effectChain>
+  </effectChains>
+  <preProcess>
+    <defaultScene>
+      <stream scene="SCENE_VOIP_3A">
+        <streamEffectMode mode="ENHANCE_DEFAULT">
+          <devicePort type="DEVICE_TYPE_MIC" effectChain="EFFECTCHAIN_VOIP_3A"/>
+        </streamEffectMode>
+      </stream>
+    </defaultScene>
+    <priorScene>
+      <stream scene="SCENE_RECORD">
+        <streamEffectMode mode="ENHANCE_DEFAULT">
+          <devicePort type="DEVICE_TYPE_MIC" effectChain="EFFECTCHAIN_RECORD"/>
+        </streamEffectMode>
+      </stream>
+      <stream scene="SCENE_PRE_ENHANCE">
+        <streamEffectMode mode="ENHANCE_DEFAULT">
+          <devicePort type="DEVICE_TYPE_MIC" effectChain="EFFECTCHAIN_VOIP_3A"/>
+        </streamEffectMode>
+      </stream>
+    </priorScene>
+    <normalScene maxExtSceneNumber="0">
+      <stream scene="SCENE_ASR">
+        <streamEffectMode mode="ENHANCE_DEFAULT">
+          <devicePort type="DEVICE_TYPE_MIC" effectChain="EFFECTCHAIN_RECORD"/>
+        </streamEffectMode>
+      </stream>
+    </normalScene>
+  </preProcess>
+  <postProcess>
+    <defaultScene>
+      <stream scene="SCENE_MUSIC">
+        <streamEffectMode mode="EFFECT_DEFAULT">
+          <devicePort type="DEVICE_TYPE_SPEAKER" effectChain="EFFECTCHAIN_SPK_MUSIC"/>
+          <devicePort type="DEVICE_TYPE_BLUETOOTH_A2DP" effectChain="EFFECTCHAIN_BT_MUSIC"/>
+        </streamEffectMode>
+      </stream>
+    </defaultScene>
+    <priorScene/>
+    <normalScene maxExtSceneNumber="0">
+      <stream scene="SCENE_MOVIE">
+        <streamEffectMode mode="EFFECT_DEFAULT">
+          <devicePort type="DEVICE_TYPE_SPEAKER" effectChain="EFFECTCHAIN_SPK_MUSIC"/>
+          <devicePort type="DEVICE_TYPE_BLUETOOTH_A2DP" effectChain="EFFECTCHAIN_BT_MUSIC"/>
+        </streamEffectMode>
+      </stream>
+      <stream scene="SCENE_GAME">
+        <streamEffectMode mode="EFFECT_DEFAULT">
+          <devicePort type="DEVICE_TYPE_SPEAKER" effectChain="EFFECTCHAIN_SPK_MUSIC"/>
+          <devicePort type="DEVICE_TYPE_BLUETOOTH_A2DP" effectChain="EFFECTCHAIN_BT_MUSIC"/>
+        </streamEffectMode>
+      </stream>
+      <stream scene="SCENE_SPEECH">
+        <streamEffectMode mode="EFFECT_DEFAULT">
+          <devicePort type="DEVICE_TYPE_SPEAKER" effectChain="EFFECTCHAIN_SPK_MUSIC"/>
+          <devicePort type="DEVICE_TYPE_BLUETOOTH_A2DP" effectChain="EFFECTCHAIN_BT_MUSIC"/>
+        </streamEffectMode>
+      </stream>
+      <stream scene="SCENE_RING">
+        <streamEffectMode mode="EFFECT_DEFAULT">
+          <devicePort type="DEVICE_TYPE_SPEAKER" effectChain="EFFECTCHAIN_SPK_MUSIC"/>
+          <devicePort type="DEVICE_TYPE_BLUETOOTH_A2DP" effectChain="EFFECTCHAIN_BT_MUSIC"/>
+        </streamEffectMode>
+      </stream>
+    </normalScene>
+    <sceneMap>
+      <streamUsage name="STREAM_USAGE_UNKNOWN" scene="SCENE_MUSIC"/>
+      <streamUsage name="STREAM_USAGE_MUSIC" scene="SCENE_MUSIC"/>
+      <streamUsage name="STREAM_USAGE_GAME" scene="SCENE_GAME"/>
+      <streamUsage name="STREAM_USAGE_MOVIE" scene="SCENE_MOVIE"/>
+      <streamUsage name="STREAM_USAGE_AUDIOBOOK" scene="SCENE_SPEECH"/>
+      <streamUsage name="STREAM_USAGE_VOICE_ASSISTANT" scene="SCENE_SPEECH"/>
+      <streamUsage name="STREAM_USAGE_VOICE_MESSAGE" scene="SCENE_MUSIC"/>
+      <streamUsage name="STREAM_USAGE_ACCESSIBILITY" scene="SCENE_SPEECH"/>
+      <streamUsage name="STREAM_USAGE_ALARM" scene="SCENE_RING"/>
+      <streamUsage name="STREAM_USAGE_RINGTONE" scene="SCENE_RING"/>
+    </sceneMap>
+  </postProcess>
+</audio_effects_conf>

@@ -1,0 +1,146 @@
+{
+  "Shortkeys": [
+    {
+      "preKey": [],
+      "finalKey": 2722,
+      "trigger": "key_up",
+      "keyDownDuration": 0,
+      "ability": {
+        "action": "",
+        "entities": [
+          ""
+        ],
+        "type": "",
+        "deviceId": "",
+        "bundleName": "com.huawei.hmos.aibase",
+        "abilityName": "WakeUpExtAbility",
+        "uri": "",
+        "params": [
+          {
+            "key": "trigger_type",
+            "value": "pc_ai_button_click"
+          }
+        ]
+      }
+    },
+    {
+      "preKey": [],
+      "finalKey": 2722,
+      "trigger": "key_down",
+      "keyDownDuration": 500,
+      "ability": {
+        "action": "",
+        "entities": [
+          ""
+        ],
+        "type": "",
+        "deviceId": "",
+        "bundleName": "com.huawei.hmos.aibase",
+        "abilityName": "WakeUpExtAbility",
+        "uri": "",
+        "params": [
+          {
+            "key": "trigger_type",
+            "value": "pc_ai_button_longpress"
+          }
+        ]
+      }
+    },
+    {
+      "preKey": [
+        2722
+      ],
+      "finalKey": 2050,
+      "trigger": "key_down",
+      "keyDownDuration": 0,
+      "ability": {
+        "action": "",
+        "entities": [
+          ""
+        ],
+        "type": "",
+        "deviceId": "",
+        "bundleName": "com.huawei.hmos.aibase",
+        "abilityName": "WakeUpExtAbility",
+        "uri": "",
+        "params": [
+          {
+            "key": "trigger_type",
+            "value": "pc_combo_key"
+          }
+        ]
+      }
+    },
+    {
+      "preKey": [],
+      "finalKey": 2079,
+      "trigger": "key_down",
+      "keyDownDuration": 0,
+      "ability": {
+        "action": "",
+        "entities": [
+          ""
+        ],
+        "type": "",
+        "deviceId": "",
+        "bundleName": "com.huawei.hmos.screenshot",
+        "abilityName": "com.huawei.hmos.screenshot.ServiceExtAbility",
+        "uri": "",
+        "params": [
+          {
+            "key": "trigger_type",
+            "value": "hot-key"
+          }
+        ]
+      }
+    },
+    {
+      "preKey": [],
+      "finalKey": 2848,
+      "trigger": "key_down",
+      "keyDownDuration": 0,
+      "ability": {
+        "action": "",
+        "entities": [
+          ""
+        ],
+        "type": "",
+        "deviceId": "",
+        "bundleName": "com.ohos.esd.service",
+        "abilityName": "ESDServiceAbility",
+        "uri": "",
+        "params": [
+          {
+            "key": "trigger_type",
+            "value": "hot-key"
+          }
+        ]
+      }
+    },
+    {
+      "preKey": [
+        2076
+      ],
+      "finalKey": 2018,
+      "trigger": "key_down",
+      "keyDownDuration": 0,
+      "ability": {
+        "action": "",
+        "entities": [
+          ""
+        ],
+        "type": "",
+        "deviceId": "",
+        "bundleName": "com.huawei.hmos.betaclub",
+        "abilityName": "MainAbility",
+        "uri": "",
+        "params": [
+          {
+            "key": "trigger_type",
+            "value": "hot-key"
+          }
+        ]
+      }
+    }
+  ]
+}

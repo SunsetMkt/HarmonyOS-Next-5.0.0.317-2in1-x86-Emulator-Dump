@@ -1,0 +1,63 @@
+{
+  "running-policy": [
+    {
+      "task_name": "index_base",
+      "realtime-conditions": [
+        {
+          "charging": "true",
+          "cpu": "<80"
+        }
+      ]
+    },
+    {
+      "task_name": "index_cv",
+      "realtime-conditions": [
+        {
+          "charging": "true",
+          "temperature": "<=OVERHEATED",
+          "cpu": "<80"
+        }
+      ]
+    },
+    {
+      "task_name": "cv_ocr",
+      "realtime-conditions": [
+        {
+          "charging": "true",
+          "temperature": "<=OVERHEATED",
+          "cpu": "<80"
+        }
+      ]
+    },
+    {
+      "task_name": "cv_vector",
+      "realtime-conditions": [
+        {
+          "charging": "true",
+          "temperature": "<=HOT",
+          "cpu": "<80"
+        }
+      ]
+    },
+    {
+      "task_name": "cv_label",
+      "realtime-conditions": [
+        {
+          "charging": "true",
+          "temperature": "<=HOT",
+          "cpu": "<80"
+        }
+      ]
+    },
+    {
+      "task_name": "other",
+      "realtime-conditions": [
+        {
+          "charging": "true",
+          "temperature": "<=HOT",
+          "cpu": "<80"
+        }
+      ]
+    }
+  ]
+}
