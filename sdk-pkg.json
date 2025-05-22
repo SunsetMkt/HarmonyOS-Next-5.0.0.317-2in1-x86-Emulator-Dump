@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "version": "1.0.0"
+  },
+  "data": {
+    "apiVersion": "17",
+    "displayName": "System-image-2in1",
+    "path": "system-image,HarmonyOS-5.0.5,2in1_x86",
+    "platformVersion": "5.0.5",
+    "releaseType": "Release",
+    "version": "5.0.0.317",
+    "guestVersion": "HarmonyOS 5.0.0.317(SP33)",
+    "stage": "Release"
+  }
+}
